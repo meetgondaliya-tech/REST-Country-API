@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REST Countries API</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header class="header-container">
+        <div class="header-content">
+            <h2 class="title"><a href="/">Where in the world?</a></h2>
+            <p class="theme-change"><i class="fa-regular fa-moon"></i>&nbsp;<span>&nbsp;</span></p>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="search-filter-container">
+            <div class="search-container">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search for a country...">
+            </div>
+            <select class="filter-by-region">
+                <option hidden>Filter by Region</option>
+                <option value="Africa">Africa</option>
+                <option value="America">America</option>
+                <option value="Asia">Asia</option>
+                <option value="Europe">Europe</option>
+                <option value="Oceania">Oceania</option>
+            </select>
+        </div>
+        <div class="countries-container">
+            <!-- <a class="country-card">
+                <img src="https://flagcdn.com/is.svg" alt="flag">
+                <div class="card-text">
+                    <h3 class="card-title">Iceland</h3>
+                    <p><b>Population: </b>81,77,324</p>
+                    <p><b>Region: </b>Europe</p>
+                    <p><b>Capital: </b>Berlin</p>
+                </div>
+            </a> -->
+        </div>
+    </main>
+</body>
+
+</html>
